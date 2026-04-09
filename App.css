@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* ROLE SELECT */
+.role-select {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+select {
+  padding: 6px;
+  margin-left: 10px;
+}
+
+/* FORM */
+.form-box {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-box input {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-box button {
+  padding: 8px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* SEARCH */
+.search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* SERVICE LIST */
+.service-list {
+  display: grid;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.card span {
+  color: #777;
+  font-size: 14px;
+}
+
+.card button {
+  margin-top: 8px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* BUTTON COLORS */
+.card button:nth-child(1) {
+  background: #2196F3;
+  color: white;
+}
+
+.btn-group button {
+  margin-right: 5px;
+}
+
+.btn-group button:nth-child(1) {
+  background: #4CAF50;
+  color: white;
+}
+
+.btn-group button:nth-child(2) {
+  background: #f44336;
+  color: white;
+}
+
+/* BOOKING BOX */
+.booking-box {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.booking-box input {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.booking-box button {
+  padding: 8px 15px;
+  background: #673AB7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
