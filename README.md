@@ -1,4 +1,4 @@
-LocalSkill
+# LocalSkill- Marketplace Service Platform
 
 LocalSkill is a full-stack web application to list, search, and book local services.
 
